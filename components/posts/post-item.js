@@ -3,10 +3,10 @@ import Link from "next/link";
 import classes from './post-item.module.css'
 
 export default function PostItem({
-  title, image, excerpt, date, slug
+  title, image, excerpt, date, slug,
 }) {
 
-  const formattedDate = new Date(date).toLocaleDateString('en-ca', {
+  const formattedDate = new Date(Date.parse(date)).toLocaleDateString('en-us', {
     day: 'numeric',
     month: 'long',
     year: 'numeric',
@@ -15,7 +15,7 @@ export default function PostItem({
   const imagePath = `/images/posts/${slug}/${image}`
 
   return <li className={classes.post}>
-    <Link href={imagePath}>
+    <Link href={`/posts/${slug}`}>
       <div className={classes.image}>
         <Image src={imagePath} alt={title} width={300} height={200}/>
       </div>
