@@ -1,8 +1,13 @@
+import Head from "next/head";
 import PostContent from "../../components/post-details/post-content";
 import { getPostData, getPostFiles } from "../../lib/posts-util";
 
 export default function PostArticlePage({post}) {
   return <div>
+    <Head>
+      <title>{post.title}</title>
+      <meta name="description" content={post.excerpt}/>
+    </Head>
     <PostContent {...post} />
   </div>
 }
