@@ -85,7 +85,8 @@ export default function ContactForm({ onSendMessage }) {
       err=>{
         notificatioCtx.showNotification({
           title: `Failed to send message`,
-          message: err.message ?? 'Message was not delivered. Please try again.'
+          message: err.message ?? 'Message was not delivered. Please try again.',
+          status: 'error',
         });
       }
     );
