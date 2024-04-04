@@ -17,7 +17,17 @@ export default function PostItem({
   return <li className={classes.post}>
     <Link href={`/posts/${slug}`}>
       <div className={classes.image}>
-        <Image src={imagePath} alt={title} width={300} height={200}/>
+        <Image 
+          src={imagePath} 
+          alt={title} 
+          width={300} 
+          height={200}
+          sizes="100vw"
+          style={{
+            width: '100%',
+            height: 'auto'
+          }}
+        />
       </div>
       <div className={classes.content}>
         <h3>{title}</h3>
