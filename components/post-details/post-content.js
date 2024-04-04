@@ -6,7 +6,7 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { atomDark } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 
 export default function PostContent({ title, slug, image, content }) {
-  const imagePath = `/images/posts/${slug}/${image}`;
+  const imagePath = `https://olegario-nextjs-projects-bucket.s3.ca-central-1.amazonaws.com/${image}`;
   const customRenderers = {
     p(paragraph) {
       const { node } = paragraph;
@@ -14,7 +14,7 @@ export default function PostContent({ title, slug, image, content }) {
         const image = node.children[0];
         return <div className={classes.image}>
           <Image 
-            src={`/images/posts/${slug}/${image.properties.src}`}
+            src={`https://olegario-nextjs-projects-bucket.s3.ca-central-1.amazonaws.com/${image.properties.src}`}
             alt={image.alt}
             width={600}
             height={300}          

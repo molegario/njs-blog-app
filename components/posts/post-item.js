@@ -12,7 +12,7 @@ export default function PostItem({
     year: 'numeric',
   });
 
-  const imagePath = `/images/posts/${slug}/${image}`
+  const imagePath = `https://olegario-nextjs-projects-bucket.s3.ca-central-1.amazonaws.com/${image}`
 
   return <li className={classes.post}>
     <Link href={`/posts/${slug}`}>
