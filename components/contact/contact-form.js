@@ -66,7 +66,7 @@ export default function ContactForm({ onSendMessage }) {
     }).then(
       response=>{
         if(
-          response && response.status === 201 && response.statusText === 'Created'
+          response && response.status === 201
         ) {
           return response;
         } else {
