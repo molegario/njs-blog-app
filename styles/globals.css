@@ -16,17 +16,6 @@ body {
   --color-grey-800: hsl(276, 5%, 20%);
   --color-grey-900: hsl(280, 5%, 13%);
 
-  --color-yellow-50: hsl(48, 95%, 66%); /* 48 */
-  --color-yellow-100: hsl(48, 59%, 58%);
-  --color-yellow-200: hsl(48, 47%, 40%);
-  --color-yellow-300: hsl(48, 46%, 36%);
-  --color-yellow-400: hsl(48, 44%, 27%);
-  --color-yellow-500: hsl(48, 43%, 23%);
-  --color-yellow-600: hsl(48, 44%, 12%);
-  --color-yellow-700: hsl(48, 44%, 1%);
-  --color-yellow-800: hsl(59, 45%, 1%); /* 59 */
-  --color-yellow-900: hsl(63, 45%, 1%); /* 63 */
-
   --color-primary-50: #c8b3ce;
   --color-primary-100: #a07aaa;
   --color-primary-200: #884c97;
@@ -54,7 +43,7 @@ body {
   --size-40: 10rem;
 
   margin: 0;
-  background-color: var(--color-yellow-500);
+  background-color: var(--color-grey-500);
   color: #252525;
   font-family: 'Roboto', sans-serif;
 }

@@ -1,6 +1,6 @@
 .post {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  background-color: var(--color-yellow-800);
+  background-color: var(--color-grey-800);
   text-align: center;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
@@ -9,7 +9,7 @@
 }
 
 .post a {
-  color: var(--color-yellow-100);
+  color: var(--color-grey-100);
 }
 
 .image {
@@ -39,7 +39,7 @@
 
 .content time {
   font-style: italic;
-  color: var(--color-yellow-300);
+  color: var(--color-grey-300);
 }
 
 .content p {

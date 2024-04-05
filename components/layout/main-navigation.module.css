@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   height: 5rem;
-  background-color: var(--color-yellow-900);
+  background-color: var(--color-grey-900);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,14 +21,14 @@
 }
 
 .header a {
-  color: var(--color-yellow-100);
+  color: var(--color-grey-100);
   font-size: var(--size-4);
 }
 
 .header a:hover,
 .header a:active,
 .header a.active {
-  color: var(--color-yellow-200);
+  color: var(--color-grey-200);
 }
 
 @media (min-width: 768px) {
