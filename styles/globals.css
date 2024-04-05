@@ -5,7 +5,7 @@
 }
 
 body {
-  --color-grey-50: hsl(265, 55%, 96%);
+  /* --color-grey-50: hsl(265, 55%, 96%);
   --color-grey-100: hsl(265, 19%, 88%);
   --color-grey-200: hsl(265, 7%, 70%);
   --color-grey-300: hsl(265, 6%, 66%);
@@ -14,7 +14,18 @@ body {
   --color-grey-600: hsl(265, 4%, 42%);
   --color-grey-700: hsl(265, 4%, 31%);
   --color-grey-800: hsl(276, 5%, 20%);
-  --color-grey-900: hsl(280, 5%, 13%);
+  --color-grey-900: hsl(280, 5%, 13%); */
+
+  --color-grey-50: #e0e198;
+  --color-grey-100: #9b9c94;
+  --color-grey-200: #a08759;
+  --color-grey-300: #9c8f69;
+  --color-grey-400: #6a6552;
+  --color-grey-500: #756d6a;
+  --color-grey-600: #4d4f51;
+  --color-grey-700: #363335;
+  --color-grey-800: #252626;
+  --color-grey-900: #09080a;
 
   --color-primary-50: #c8b3ce;
   --color-primary-100: #a07aaa;
