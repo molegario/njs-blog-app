@@ -3,7 +3,8 @@ import Logo from "./logo";
 import classes from './main-navigation.module.css';
 
 export default function MainNavigation() {
-  return <header className={classes.header}>
+  const headerCt = `${classes.sticky} ${classes.header}`
+  return <header className={headerCt}>
     <Link href='/'><Logo /></Link>
     <nav>
       <ul>
